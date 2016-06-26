@@ -1,0 +1,12 @@
+ nmap -T4 -sT -PN 192.168.1.106
+
+ nmap can't scan windows host 
+ may be the firewall is the main reason
+
+ -sP  ping scan
+
+ -A  all kinds of info
+
+ -vv detail info 
+
+
