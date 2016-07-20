@@ -1,3 +1,4 @@
+NMAP_HEAD
  nmap -T4 -sT -PN 192.168.1.106
 
  nmap can't scan windows host 
@@ -9,4 +10,51 @@
 
  -vv detail info 
 
+ -P* ping 
+PR arp ping
+PA tcp ack ping
+ https://nmap.org/man/zh/man-host-discovery.html
 
+
+port status
+open:
+close:
+filtered: may be firewall
+unfiltered:
+
+
+-s(*C)
+https://nmap.org/man/zh/man-port-scanning-techniques.html
+	-sS tcp syn
+	-s
+
+
+-p port
+-p U:53，111，137，T:21-25，80，139，8080
+	
+
+service detect
+-sV version
+
+os detect
+-O
+
+advance section
+https://nmap.org/man/zh/man-bypass-firewalls-ids.html
+
+som examples
+https://nmap.org/man/zh/man-examples.html
+
+
+METASPLOIT_HEAD
+ 1)metasploit install
+ 1. http://www.freebuf.com/articles/system/36924.html
+
+ 2).port scan
+   --search portscans
+   --set option
+
+   one example
+   http://www.myhack58.com/Article/html/3/8/2011/32649.htm
+
+BEEF
